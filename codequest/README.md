@@ -77,23 +77,23 @@ php -S localhost:8000
 
 #### Using XAMPP/WAMP:
 - Place the project in `htdocs` or `www` directory
-- Access via `http://localhost/space`
+- Access via `http://localhost/codequest`
 
 #### Using Laragon:
 - Place the project in `laragon/www` directory
-- Access via `http://space.test`
+- Access via `http://codequest.test`
 
 ### 4. Access the Application
 
 Open your browser and navigate to:
 - `http://localhost:8000` (PHP built-in server)
-- `http://localhost/space` (XAMPP/WAMP)
+- `http://localhost/codequest` (XAMPP/WAMP)
 - `http://space.test` (Laragon)
 
 ## 📁 Project Structure
 
 ```
-space/
+codequest/
 ├── database.sql          # Database schema and sample questions
 ├── db.php               # Database connection
 ├── index.php            # Home page (login/register/dashboard)
